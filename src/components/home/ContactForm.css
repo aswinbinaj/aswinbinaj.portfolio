@@ -1,0 +1,80 @@
+.contact-alt-section {
+  background: #000000;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background-color: #1c1c1c;
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 188, 212, 0.1);
+  border: 1px solid #ffffff;
+  text-align: center;
+  color: white;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #FF6F61;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.contact-alt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-alt-form input,
+.contact-alt-form textarea {
+  padding: 14px 16px;
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.contact-alt-form input:focus,
+.contact-alt-form textarea:focus {
+  border-color: #FF6F61;
+}
+
+.alt-submit-btn {
+  padding: 12px;
+  background-color: #772b24;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.alt-submit-btn:hover {
+  background-color: #00a2bd;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-card {
+    padding: 30px 20px;
+  }
+
+  .contact-title {
+    font-size: 1.7rem;
+  }
+}
