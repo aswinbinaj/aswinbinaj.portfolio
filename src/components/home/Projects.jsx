@@ -21,19 +21,20 @@ const Projects = () => {
       description: "Tron Academy is a Kerala-based professional training institute providing industry-oriented programs in coding, digital marketing, and multimedia with assured placement support.",
     },
     {
+      title: "Intermine Solutions",
+      category: "React",
+      img: "/intermine.png",
+      url: "https://interminesolutions.netlify.app/",
+      description: "Intermine Solutions is a Germany-based company offering secure and cost-effective crypto mining solutions, including hardware, hosting, and comprehensive support.",
+    },
+    {
       title: "Signature-D-World",
       category: "React",
       img: "/signature.JPG",
       url: "https://signaturedworld.com",
       description: "Signature D World is a user-friendly website for a supermarket, featuring product categories, WhatsApp-based inquiries, and dedicated Home, About, and Contact pages.",
     },
-    {
-      title: "Collective Transportations",
-      category: "React",
-      img: "/collective.JPG",
-      url: "https://collectivetransportations.com",
-      description: "Collective Transportation offers reliable transport services including airport transfers, event rides, and employee commutes, with easy booking and flexible scheduling",
-    },
+    
     {
       title: "Precious Stores",
       category: "WordPress",
