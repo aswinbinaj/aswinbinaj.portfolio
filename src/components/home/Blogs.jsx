@@ -1,5 +1,6 @@
 import React from "react";
 import "../home/Blogs.css";
+import { Link } from "react-router-dom";
 import firstblog from "../../../public/firstblog.jpg";
 import secondblog from "../../../public/woocommerce.jpg"
 import thirdblog from "../../../public/php.jpg"
@@ -41,7 +42,9 @@ const Blogs = () => {
             <div className="blog-card-content">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
-              <button className="read-more-btn">Read More</button>
+              <Link to={`/blog/${index + 1}`} className="read-more-btn">
+  Read More
+</Link>
             </div>
           </div>
         ))}

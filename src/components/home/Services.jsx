@@ -6,29 +6,29 @@ const Services = () => {
     {
       title: "Frontend Development",
       description:
-        "Responsive and dynamic user interfaces using React, Tailwind CSS, and modern UI practices.",
+        "React, Tailwind CSS, for Responsive and  modern simplicity User interfaces.",
     },
     {
       title: "WordPress Development",
       description:
-        "Custom WordPress themes, plugins, WooCommerce stores, and page builders like Elementor.",
+        "Custom WordPress themes, plugins, WooCommerce stores, and page builder applications such as Elementor"
     },
 
     {
       title: "E-commerce Development",
       description:
-        "Online store setup using WooCommerce or Laravel, including payment gateways and product management.",
+        "Developing an online shopping site using WooCommerce or Laravel that includes payment handling and stock management. ",
     },
 
     {
-      title: "Website Maintenance & Optimization",
+      title: "Ongoing Website Maintenance & Optimization",
       description:
-        "Speed optimization, bug fixing, backups, updates, and continuous improvements.",
+        "Improving performance, removing malware, generating backups, executing updates, and supporting continuous enhancements.",
     },
     {
       title: "WordPress Training & Mentorship",
       description:
-        "Offer one-on-one or group sessions for beginners learning WordPress development, Elementor, WooCommerce, and theme customization.",
+        "Provide individual or group sessions for beginners learning knowledge  in WordPress development, Elementor, WooCommerce, and customizing themes"
     },
   ];
 

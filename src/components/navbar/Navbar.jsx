@@ -3,6 +3,8 @@ import "../navbar/Navbar.css";
 import { CiLight } from "react-icons/ci";
 import { HiMenu, HiX } from "react-icons/hi";
 
+import {redirectToWhatsApp} from "../../utils/whatsapp"
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -44,7 +46,7 @@ const Navbar = () => {
       </div>
 
       <div className="nav-contact-btn desktop-contact">
-        <button>Contact me</button>
+        <button onClick={redirectToWhatsApp}>Contact me</button>
       </div>
 
       <div className="mobile-right">
@@ -91,7 +93,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="mobile-contact-btn">
-          <button onClick={closeMenu}>Contact me</button>
+          <button onClick={closeMenu } >Contact me</button>
         </div>
       </div>
 
