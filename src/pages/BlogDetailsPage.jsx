@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { blogPosts } from "../utils/blogs";
 import "../pages/BlogDetailsPage.css";
@@ -8,6 +9,10 @@ const BlogDetails = () => {
   const blog = blogPosts.find((b) => b.id === Number(id));
 
   if (!blog) return <h2 className="not-found">Blog Not Found</h2>;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="blog-page-wrapper">
