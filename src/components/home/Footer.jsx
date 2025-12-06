@@ -10,8 +10,8 @@ const Footer = () => {
       </div>
       <div className="footer-right">
         <a href="https://www.linkedin.com/in/aswinbinaj/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="https://www.instagram.com/aswinbinaj?igsh=ZmNpOGlnaDB1eXBi&utm_source=qr" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        {/* <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a> */}
         
         
       </div>
