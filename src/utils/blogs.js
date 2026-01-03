@@ -3,20 +3,33 @@ import secondblog from "../../public/woocommerce.jpg";
 import thirdblog from "../../public/php.jpg";
 
 export const blogPosts = [
-  {
+{
     id: 1,
     image: firstblog,
     title: "Why Choose React for Front-End Development",
     description:
-      "React has become one of the most popular JavaScript libraries because of its component-based architecture, fast rendering, and robust ecosystem. Here's why developers prefer it for modern front-end development.",
+      "React has become one of the most popular JavaScript libraries because of its component-based architecture, fast rendering, and robust ecosystem.",
+
+    // 🔥 SEO DATA
+    seo: {
+      metaTitle: "Why Choose React for Front-End Development in 2025",
+      metaDescription:
+        "Discover why React is a top choice for front-end development in 2025. Learn about its Virtual DOM performance, component-based architecture, and powerful ecosystem.",
+      keywords:
+        "Why Choose React for Front-End Development, React JavaScript Library, Virtual DOM in React, Component-Based Architecture in React, React Ecosystem Tools, Future of React Development 2025",
+    },
+
     content: `
-React is one of the most widely used front-end libraries today because of its performance, flexibility, and large ecosystem. Its Virtual DOM system ensures faster rendering by updating only the parts of the UI that change, instead of reloading the entire page. This makes applications smoother and more efficient.
+React is one of the most widely used front-end libraries today because of its performance, flexibility, and large ecosystem.
 
-Another major advantage is React’s component-based architecture. It allows developers to build reusable components, making projects easier to maintain, scale, and update. The huge ecosystem around React also contributes to its popularity—tools like React Router, Redux, Zustand, Next.js, Tailwind CSS, and Material UI make development even more powerful.
+Its Virtual DOM system ensures faster rendering by updating only the parts of the UI that change instead of reloading the entire page.
 
-With strong adoption from companies like Meta, Netflix, Airbnb, and Discord, the job market for React developers continues to grow. For anyone starting front-end development in 2025, React remains one of the best and most future-proof choices.
+Another major advantage is React’s component-based architecture, which allows developers to build reusable components and scale applications easily.
+
+With strong adoption from companies like Meta, Netflix, and Airbnb, React remains one of the most future-proof technologies in 2025.
     `,
   },
+
 
   {
     id: 2,
